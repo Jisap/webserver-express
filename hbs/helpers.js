@@ -3,7 +3,7 @@ const hbs = require('hbs');
 // Helpers
 
 hbs.registerHelper('getAnio', ()=> {
-  return new Date().getFullYear();                    // En el parcial donde pongamos la función getAnio apararecerá el año.
+  return new Date().getFullYear();                    // En el parcial donde pongamos la función getAnio aparecerá el año.
 });
 
 hbs.registerHelper('capitalizar', (texto) =>{
